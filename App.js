@@ -23,6 +23,8 @@ export default function App() {
 
   const [hideSplashScreen, setHideSplashScreen] = React.useState(true);
 
+  <View>Hello World</View>
+
   const [fontsLoaded, error] = useFonts({
     "OrelegaOne-Regular": require("./assets/fonts/OrelegaOne-Regular.ttf"),
     "Judson-Regular": require("./assets/fonts/Judson-Regular.ttf"),
